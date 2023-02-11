@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(211 219 227);
+}
+.title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.underline{
+    background-color: rgb(60 123 201);
+    height: 6px;
+    width: 149px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
